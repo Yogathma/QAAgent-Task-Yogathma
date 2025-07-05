@@ -1,0 +1,3 @@
+Test ID,Title,Expected Result,Status
+TC01,Valid Signup Flow,User lands on dashboard,Failed
+TC02,Invalid Email Format,Error message: 'Invalid email format',Failed
