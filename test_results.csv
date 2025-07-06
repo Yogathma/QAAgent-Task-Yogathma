@@ -1,0 +1,5 @@
+Test ID,Title,Status
+TC01,Valid Signup Flow,Passed
+TC02,Invalid Email Format,Failed
+TC03,Empty Fields on Signup,Passed
+TC04,Network Error on Submit,Failed
