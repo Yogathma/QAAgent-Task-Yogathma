@@ -1,0 +1,25 @@
+ [
+  {
+    "id": "TC01",
+    "title": "Valid Signup Flow",
+    "steps": [
+      "Navigate to https://www.recruter.ai/onboarding/Signup",
+      "Enter a valid email and password",
+      "Click 'Sign Up'",
+      "Verify redirection to dashboard"
+    ],
+    "expected_result": "User lands on dashboard",
+    "tags": ["core", "signup", "positive"]
+  },
+  {
+    "id": "TC02",
+    "title": "Invalid Email Format",
+    "steps": [
+      "Navigate to signup page",
+      "Enter 'invalid_email.com'",
+      "Click 'Sign Up'"
+    ],
+    "expected_result": "Error message: 'Invalid email format'",
+    "tags": ["edge", "validation", "negative"]
+  }
+]
